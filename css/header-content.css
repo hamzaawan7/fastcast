@@ -1,0 +1,417 @@
+@charset "utf-8";
+/* CSS Document */
+/*my CSS classes here*/
+.p-zero{ padding:0px !important; }
+.m-zero{ margin:0px !important; }
+.pT0{ padding-top:0px !important; }
+.pR0{ padding-right:0px !important; }
+.pB0{ padding-bottom:0px !important; }
+.pL0{ padding-left:0px !important; }
+.mT0{ margin-top:0px !important; }
+.mR0{ margin-right:0px !important; }
+.mB0{ margin-bottom:0px !important; }
+.mL0{ margin-left:0px !important; }
+.bR0 { border-right: none !important; }
+.fL { float: left !important; }
+.clr{ clear: both; }
+a:hover, a:focus { text-decoration: none !important; }
+
+body {
+    font-family: 'Lato', sans-serif !important;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #efefef;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+
+/* filmmaker_profile page */
+
+.container-fluid {
+    background-color: #efefef;
+}
+
+.container {
+    width: 80% !important;
+    margin: 2% auto;
+    background-color: #fff;
+}
+
+.add-text {
+    font-size: 50%;
+}
+
+.remove-button-styling{
+    background:none!important;
+    border:none;
+    padding:0;
+    cursor: pointer;
+}
+
+
+.headerTopbg {
+    padding-left: 10% !important;
+    background-color: #323232;
+}
+
+.headerTop_leftSec {
+    width: 25%;
+    float: left;
+}
+
+.headerTop_leftSec i {
+    padding: 5px 5px 5px 0px;
+    color: grey;
+}
+
+.headerTop_rightSec {
+    padding: 6px 0px 0px;
+    float: left;
+}
+
+.headerTop_rightSec span {
+    font-size: 18px;
+    padding: 0% 2%;
+    color: white;
+    border-right: 1px solid #fff;
+    float: left;
+}
+
+.headerTop_rightSec p {
+    font-size: 18px;
+    color: white;
+    border-right: 1px solid #fff;
+    float: left;
+}
+
+.headerTop_rightSec a span {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    border: 2px solid #a6a6a6 !important;
+}
+
+/* media quiries here */
+/*
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+ media quiries for home page
+
+
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+/* media quiries for home page
+
+
+}
+
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+/* media quiries for home page
+
+
+}
+*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    /* media quiries for home page */
+
+    .navbar-nav>li>a { font-size: 14px; }
+
+    .dropdown>button { padding: 8px 15px; }
+
+    .glyphicon {
+        font-size: 23px;
+        padding: 8px 10px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        padding: 6px 30px !important;
+    }
+
+    .featuredActor h4, .activeProject h4 { font-size: 22px; }
+
+    .itemProject_detail p  { font-size: 13px; }
+
+    .itemActor_detail h5 { font-size: 17px; }
+
+    .itemActor_detail p, .itemActor_detail span, .activeProject_detailLeft span { font-size: 12px; }
+
+    .activeProject_detailLeft h5, .activeProject_bottom { font-size: 14px; }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* media quiries for home page */
+
+    .navbar-nav>li>a { font-size: 12px; }
+
+    .dropdown>button { padding: 8px 15px; }
+
+    .glyphicon {
+        font-size: 23px;
+        padding: 8px 10px;
+    }
+
+    .navbar-form .btn {
+        font-size: 10px;
+        padding: 6px 10px !important;
+    }
+
+    .headerTop_rightSec { padding-bottom: 0%; }
+
+    .findPerson input[type="text"] { width: 100%; }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject { margin-top: 5%; width: 100% !important; }
+
+    .activeProject_detailLeft p { margin-bottom: 3%; }
+
+
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 767px) {
+    /* media quiries for home page */
+
+    .dropdown>button { padding: 8px 15px; }
+
+    .glyphicon {
+        font-size: 23px;
+        padding: 8px 10px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        padding: 10px 40px !important;
+    }
+
+
+    .headerTop_rightSec { padding-bottom: 0%; }
+
+    .findPerson input[type="text"] { width: 100%; }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject { margin-top: 5%; width: 100% !important; }
+
+    .activeProject_detailLeft p { margin-bottom: 3%; }
+
+
+}
+
+
+
+@media only screen and (min-width: 554px) and (max-width: 699px) {
+    /* media quiries for home page */
+
+    .dropdown>button { padding: 8px 15px; }
+
+    .glyphicon {
+        font-size: 23px;
+        padding: 8px 10px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        margin-top: 2%;
+        padding: 6px 15px !important;
+    }
+
+    .headerTop_rightSec { padding-bottom: 0%; }
+
+    .findPerson input[type="text"] { width: 100%; }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject { margin-top: 5%; width: 100% !important; }
+
+    .activeProject_detailLeft p { margin-bottom: 3%; }
+
+}
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 553px) {
+    /*media quiries for home page*/
+
+    .dropdown>button { padding: 8px 15px; }
+
+    .glyphicon {
+        font-size: 23px;
+        padding: 8px 10px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        margin-top: 2%;
+        padding: 6px 15px !important;
+    }
+
+    .headerTop_rightSec { padding-bottom: 0%; }
+
+    .headerTop_rightSec span, .headerTop_rightSec p { font-size: 14px; }
+
+    .findPerson input[type="text"] { width: 100%; }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject { margin-top: 5%; width: 100% !important; }
+
+    .activeProject_detailLeft p { margin-bottom: 3%; }
+
+}
+
+
+
+@media only screen and (min-width: 425px) and (max-width: 479px) {
+    /* media quiries for home page */
+
+    .dropdown>button { padding: 8px 15px; }
+
+    .glyphicon {
+        font-size: 23px;
+        padding: 8px 10px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        margin-top: 3%;
+        padding: 6px 15px !important;
+    }
+
+    .headerTop_rightSec { padding-bottom: 0%; }
+
+    .headerTop_rightSec span, .headerTop_rightSec p { font-size: 12px; }
+
+    .findPerson input[type="text"] { width: 100%; }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject { margin-top: 5%; width: 100% !important; }
+
+    .activeProject_detailLeft p { margin-bottom: 3%; }
+
+    .featuredActor h4, .activeProject h4 { font-size: 20px; }
+
+    .itemProject_detail p  { font-size: 12px; }
+
+    .itemActor_detail h5 { font-size: 18px; }
+
+    .itemActor_detail p, .itemActor_detail span, .activeProject_detailLeft span, .activeProject_detailLeft p { font-size: 10px; }
+
+
+
+    .activeProject_detailLeft h5, .activeProject_bottom { font-size: 14px; }
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+    /* media quiries for home page */
+    .fa-2x {
+        font-size: 1em !important;
+    }
+
+    .dropdown > button, .dropdown ul li {
+        font-size: 10px;
+        padding: 12px 12px;
+    }
+
+    .glyphicon {
+        font-size: 22px;
+        padding: 8px 10px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        margin-top: 7%;
+        padding: 5px 4px !important;
+    }
+
+    .headerTop_rightSec {
+        padding-bottom: 0%;
+    }
+
+    .headerTop_rightSec span, .headerTop_rightSec p {
+        font-size: 8px;
+    }
+
+    .findPerson input[type="text"] {
+        width: 100%;
+    }
+
+    .itemProject_detail p {
+        font-size: 16px;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject {
+        margin-top: 5%;
+        width: 100% !important;
+    }
+
+    .activeProject_detailLeft p {
+        margin-bottom: 3%;
+    }
+
+    .featuredActor h4, .activeProject h4 {
+        font-size: 18px;
+    }
+
+    .itemProject_detail p {
+        font-size: 12px;
+    }
+
+    .itemActor_detail h5 {
+        font-size: 14px;
+    }
+
+    .itemActor_detail p, .itemActor_detail span, .activeProject_detailLeft span, .activeProject_detailLeft p {
+        font-size: 10px;
+    }
+
+    .activeProject_detailLeft h5, .activeProject_bottom {
+        font-size: 14px;
+    }
+}

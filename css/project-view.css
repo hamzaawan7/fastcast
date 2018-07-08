@@ -1,0 +1,136 @@
+/* MENU */
+.side-padding {
+    padding: 1.5% 2%;
+}
+
+.navbar {
+    margin-bottom: 2% !important
+}
+
+.navBg {
+    background-color: #134e6c !important;
+}
+
+.navbar-form {
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    margin-right: 3% !important;
+}
+
+.btn-project {
+    background-color: #fff !important;
+    color: #134e6c;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+}
+
+.project-title {
+    padding-top: 1%;
+    color: #fff;
+    font-size: 22px;
+}
+
+.crew-info {
+    padding: 2%;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.crew-table {
+    width: 100%;
+}
+
+.crew-table td {
+    padding: 2px 5px;
+    border: 3px solid #000;
+    text-align: center;
+}
+
+.left-crew-data {
+    font-weight: 600;
+}
+
+.left-crew-data a {
+    color: #134e6c !important;
+}
+
+.right-crew-data {
+    font-weight: 700;
+}
+
+.project-summary-title {
+    background-color: #efefef !important;
+    margin: 1.5% 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.project-summary {
+    margin: 1% 0;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6%;
+}
+
+.highlight_Video {
+    margin-bottom: 1%;
+}
+
+.btn-other-projects {
+    background-color: orangered;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+.role-head{
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.role-attributes{
+    font-weight: 500;
+}
+
+.role-summary{
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.role-detail{
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.apply-role{
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #134e6c !important;
+}
+.apply-role:hover{
+    color: #fff;
+}
+.apply-role:focus{
+    color: #fff;
+}
+.apply-role:active{
+    color: #fff;
+}
+
+.profileImg {
+    width: 12% !important;
+}
+
+.profileImg img {
+    width: 135px;
+    height: 180px;
+    left: 0px;
+    position: relative;
+    margin: 10px 0 !important;
+}

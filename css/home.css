@@ -1,0 +1,859 @@
+@charset "utf-8";
+/* CSS Document */
+/*my CSS classes here*/
+.m-zero {
+    margin: 0px !important;
+}
+
+.pz {
+    padding: 0px !important;
+}
+
+.pT0 {
+    padding-top: 0px !important;
+}
+
+.pR0 {
+    padding-right: 0px !important;
+}
+
+.pB0 {
+    padding-bottom: 0px !important;
+}
+
+.pL0 {
+    padding-left: 0px !important;
+}
+
+.mT0 {
+    margin-top: 0px !important;
+}
+
+.mR0 {
+    margin-right: 0px !important;
+}
+
+.mB0 {
+    margin-bottom: 0px !important;
+}
+
+.mL0 {
+    margin-left: 0px !important;
+}
+
+.bR0 {
+    border-right: none !important;
+}
+
+.fL {
+    float: left !important;
+}
+
+.clr {
+    clear: both;
+}
+
+a:hover, a:focus {
+    text-decoration: none !important;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif !important;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #efefef;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.remove-button-styling {
+    background: none !important;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* home page */
+
+.container-fluid {
+    padding: 0% !important;
+}
+
+.container {
+    width: 80% !important;
+    margin: 10px auto !important;
+}
+
+.headerTopbg {
+    padding-left: 10% !important;
+    background-color: #323232;
+}
+
+.headerTop_leftSec {
+    width: 23%;
+    float: left;
+}
+
+.headerTop_leftSec i {
+    padding: 5px 5px 5px 0px;
+    color: grey;
+}
+
+.greenText {
+    color: #60bc56 !important;
+}
+
+.headerTop_rightSec {
+    padding: 6px 0px 0px;
+    float: left;
+}
+
+.headerTop_rightSec span {
+    font-size: 18px;
+    padding: 0% 2%;
+    color: white;
+    border-right: 1px solid #fff;
+    float: left;
+}
+
+.headerTop_rightSec p {
+    font-size: 18px;
+    color: white;
+    border-right: 1px solid #fff;
+    float: left;
+}
+
+.headerTop_rightSec a span {
+    color: white;
+    text-decoration: none;
+}
+
+.logoTop {
+    margin: 1% 10%;
+}
+
+/* MENU */
+
+.navbar {
+    margin-bottom: 0% !important
+}
+
+.nav {
+    padding: 1% 0% 1% 5% !important;
+    margin: 0 auto !important;
+}
+
+.extraP {
+    padding-left: 6% !important;
+}
+
+.navBg {
+    background-color: #134e6c !important;
+}
+
+.navbar-nav > li > a {
+    font-size: 16px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    color: white;
+    text-transform: capitalize;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: transparent !important;
+}
+
+.active {
+    background-color: white !important;
+    border-radius: 4px;
+}
+
+.active a {
+    color: black !important;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.btn {
+    padding: 6px 55px !important;
+}
+
+.navbar-form {
+    margin-top: .8% !important;
+    margin-bottom: .8% !important;
+    margin-right: 10% !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+}
+
+/* Find Person/ Category */
+
+.find_Person_Category {
+    width: 100%;
+    float: left;
+    background-color: white;
+    padding: 2% 0% 0% !important;
+    margin-bottom: 2%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.findPerson input {
+    font-size: 16px;
+    width: 90%;
+    padding: 1.5% 3%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    outline: none;
+}
+
+/* Drop down */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.dropdown > a, .dropdown > select {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 15px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown > a:before, .dropdown > select:before {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    content: ' ';
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
+
+.dropdown input[type=checkbox] {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 72%;
+    margin: 0px;
+    opacity: 0;
+}
+
+.dropdown input[type=checkbox]:checked {
+    position: fixed;
+    z-index: +0;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.dropdown ul {
+    position: absolute;
+    top: 40px;
+    border-radius: 3px;
+    left: 0px;
+    list-style: none;
+    padding: 4px 0px;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown input[type=checkbox]:checked + ul {
+    display: block;
+}
+
+.dropdown ul li {
+    font-size: 16px;
+    display: block;
+    padding: 6px 20px;
+    white-space: nowrap;
+    min-width: 100px;
+}
+
+.dropdown ul li:hover {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.dropdown ul li a {
+    text-decoration: none;
+    display: block;
+    color: black
+}
+
+.dropdown .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+    font-size: 1px;
+    padding: 0;
+}
+
+.glyphicon-search {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 8px 12px;
+    text-align: center !important;
+}
+
+/* featuredProjects */
+
+.festuredProject {
+    padding: 1% 5%;
+    float: left;
+    background-color: white;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.festuredProject h4 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 2% !important;
+}
+
+/* carousel slider */
+
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+
+.itemProject_detail img {
+    margin-bottom: 3%;
+    width: 188px;
+    max-height: 122px;
+}
+
+.itemProject_detail p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #006fc2;
+    text-align: center;
+    text-decoration: none;
+}
+
+.itemProject_detail p a {
+    text-decoration: none;
+}
+
+.thumbnail {
+    margin-bottom: 0% !important;
+}
+
+.carousel {
+    margin-bottom: 0;
+    padding: 0 4% 0px 4%;
+}
+
+.carousel-inner > .item {
+    text-align: center;
+}
+
+/* Reposition the controls slightly */
+
+.carousel-control {
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.carousel-control img {
+    width: 100%;
+}
+
+.carousel-control.left, .carousel-control.right {
+    margin: 5.5% 2%;
+    background: none !important;
+    width: 2%;
+    height: 35px;
+}
+
+/* featuredActor */
+
+.featuredActor {
+    padding: 1% 0%;
+    float: left;
+    background-color: white;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.featuredActor h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.itemActor_detail img {
+    margin-top: 15%;
+    width: 135px;
+    max-height: 180px;
+    border: 2px solid black;
+}
+
+.itemProject_detail h5 {
+    font-size: 19px;
+    font-weight: 700;
+    color: black;
+}
+
+.itemProject_detail h5 a {
+    text-decoration: none;
+}
+
+.itemActor_detail h5 {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+.itemActor_detail h5 a {
+    text-decoration: none;
+}
+
+.itemActor_detail p {
+    margin: 0%;
+    font-size: 14px;
+    color: black;
+}
+
+.itemActor_detail span {
+    font-weight: bold;
+}
+
+/* activeProject */
+
+.activeProject {
+    width: 38% !important;
+    padding: 1% 0%;
+    background-color: white;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.activeProject h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 2% !important;
+}
+
+.activeProject_detail {
+    margin: 5% 0;
+}
+
+.activeProject_detailLeft h5 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #006fc2;
+    margin-bottom: 2% !important;
+}
+
+.activeProject_detailLeft span {
+    font-size: 13px;
+    color: grey;
+}
+
+.activeProject_detailLeft h5 a {
+    text-decoration: none;
+}
+
+.activeProject_detailLeft p {
+    margin: 5% 0%;
+    font-size: 13px;
+    font-style: italic;
+    color: grey;
+}
+
+.activeProject_detailRight {
+    padding-left: 0% !important;
+}
+
+.activeProject_detailRight img {
+    float: right;
+    margin-right: 0% !important;
+    width: 188px;
+    max-height: 122px;
+}
+
+hr {
+    width: 80%;
+    border-top: 1px solid #000 !important;
+    margin: 2% 8% !important;
+}
+
+.activeProject_bottom {
+    text-align: center;
+    color: #006fc2;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 3% 0%;
+}
+
+.project-grid {
+    margin: 3% 0;
+}
+
+/* media quiries here */
+/*
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+ media quiries for home page
+
+
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+/* media quiries for home page
+
+
+}
+
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+/* media quiries for home page
+
+
+}
+*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    /* media quiries for home page */
+    .navbar-nav > li > a {
+        font-size: 14px;
+    }
+
+    .dropdown > button {
+        padding: 8px 15px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        padding: 6px 30px !important;
+    }
+
+    .featuredActor h4, .activeProject h4 {
+        font-size: 22px;
+    }
+
+    .itemProject_detail p {
+        font-size: 13px;
+    }
+
+    .itemActor_detail h5 {
+        font-size: 17px;
+    }
+
+    .itemActor_detail p, .itemActor_detail span, .activeProject_detailLeft span {
+        font-size: 12px;
+    }
+
+    .activeProject_detailLeft h5, .activeProject_bottom {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* media quiries for home page */
+    .navbar-nav > li > a {
+        font-size: 12px;
+    }
+
+    .dropdown > button {
+        padding: 8px 15px;
+    }
+
+    .navbar-form .btn {
+        font-size: 10px;
+        padding: 6px 10px !important;
+    }
+
+    .headerTop_rightSec {
+        padding-bottom: 0%;
+    }
+
+    .findPerson input[type="text"] {
+        width: 100%;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject {
+        margin-top: 5%;
+        width: 100% !important;
+    }
+
+    .activeProject_detailLeft p {
+        margin-bottom: 3%;
+    }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 767px) {
+    /* media quiries for home page */
+    .dropdown > button {
+        padding: 8px 15px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        padding: 10px 40px !important;
+    }
+
+    .headerTop_rightSec {
+        padding-bottom: 0%;
+    }
+
+    .findPerson input[type="text"] {
+        width: 100%;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject {
+        margin-top: 5%;
+        width: 100% !important;
+    }
+
+    .activeProject_detailLeft p {
+        margin-bottom: 3%;
+    }
+
+}
+
+@media only screen and (min-width: 554px) and (max-width: 699px) {
+    /* media quiries for home page */
+    .dropdown > button {
+        padding: 8px 15px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        margin-top: 2%;
+        padding: 6px 15px !important;
+    }
+
+    .headerTop_rightSec {
+        padding-bottom: 0%;
+    }
+
+    .findPerson input[type="text"] {
+        width: 100%;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject {
+        margin-top: 5%;
+        width: 100% !important;
+    }
+
+    .activeProject_detailLeft p {
+        margin-bottom: 3%;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 553px) {
+    /*media quiries for home page*/
+    .dropdown > button {
+        padding: 8px 15px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        margin-top: 2%;
+        padding: 6px 15px !important;
+    }
+
+    .headerTop_rightSec {
+        padding-bottom: 0%;
+    }
+
+    .headerTop_rightSec span, .headerTop_rightSec p {
+        font-size: 14px;
+    }
+
+    .findPerson input[type="text"] {
+        width: 100%;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject {
+        margin-top: 5%;
+        width: 100% !important;
+    }
+
+    .activeProject_detailLeft p {
+        margin-bottom: 3%;
+    }
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 479px) {
+    /* media quiries for home page */
+    .dropdown > button {
+        padding: 8px 15px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        margin-top: 3%;
+        padding: 6px 15px !important;
+    }
+
+    .headerTop_rightSec {
+        padding-bottom: 0%;
+    }
+
+    .headerTop_rightSec span, .headerTop_rightSec p {
+        font-size: 12px;
+    }
+
+    .findPerson input[type="text"] {
+        width: 100%;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject {
+        margin-top: 5%;
+        width: 100% !important;
+    }
+
+    .activeProject_detailLeft p {
+        margin-bottom: 3%;
+    }
+
+    .featuredActor h4, .activeProject h4 {
+        font-size: 20px;
+    }
+
+    .itemProject_detail p {
+        font-size: 12px;
+    }
+
+    .itemActor_detail h5 {
+        font-size: 18px;
+    }
+
+    .itemActor_detail p, .itemActor_detail span, .activeProject_detailLeft span, .activeProject_detailLeft p {
+        font-size: 10px;
+    }
+
+    .activeProject_detailLeft h5, .activeProject_bottom {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+    /* media quiries for home page */
+    .fa-2x {
+        font-size: 1em !important;
+    }
+
+    .dropdown > button, .dropdown ul li {
+        font-size: 10px;
+        padding: 12px 12px;
+    }
+
+    .navbar-form .btn {
+        font-size: 12px;
+        margin-top: 7%;
+        padding: 5px 4px !important;
+    }
+
+    .headerTop_rightSec {
+        padding-bottom: 0%;
+    }
+
+    .headerTop_rightSec span, .headerTop_rightSec p {
+        font-size: 8px;
+    }
+
+    .findPerson input[type="text"] {
+        width: 100%;
+    }
+
+    .itemProject_detail p {
+        font-size: 16px;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        margin: 28.5% 2%;
+        background: inherit;
+        width: 4%;
+    }
+
+    .featuredProject, .featuredActor, .activeProject {
+        margin-top: 5%;
+        width: 100% !important;
+    }
+
+    .activeProject_detailLeft p {
+        margin-bottom: 3%;
+    }
+
+    .featuredActor h4, .activeProject h4 {
+        font-size: 18px;
+    }
+
+    .itemProject_detail p {
+        font-size: 12px;
+    }
+
+    .itemActor_detail h5 {
+        font-size: 14px;
+    }
+
+    .itemActor_detail p, .itemActor_detail span, .activeProject_detailLeft span, .activeProject_detailLeft p {
+        font-size: 10px;
+    }
+
+    .activeProject_detailLeft h5, .activeProject_bottom {
+        font-size: 14px;
+    }
+}

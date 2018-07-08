@@ -1,0 +1,14 @@
+body {
+    font-family: 'Lato', sans-serif !important;
+    background: url(../images/login_bg.jpg) center center repeat-y;
+    background-size: contain;
+    width: 100%;
+    height: 632px;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+.credential-box{
+    margin:22% 0;
+    border-radius : 3px;
+    background-color : rgb(232, 92, 77);
+}
